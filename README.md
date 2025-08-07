@@ -41,25 +41,3 @@ Contains the following tables:
 - `issues(id, citizen_id, authority_id, title, description, location, status, image_path)`
 
 Use the included SQL file (`/database/civicmapdb.sql`) to create the database and tables.
-
----
-
-## 📁 Project Structure
-CivicMap/
-
-├── src/
-│ └── com.r3sys/
-│ ├── controller/
-│ ├── dao/
-│ └── model/
-├── WebContent/
-│ ├── WEB-INF/
-│ │ └── views/
-│ │ ├── admin/
-│ │ ├── citizen/
-│ │ └── authority/
-│ └── jsp/
-├── pom.xml
-├── spring-servlet.xml
-├── config.xml
-└── web.xml
