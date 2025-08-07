@@ -46,6 +46,7 @@ Use the included SQL file (`/database/civicmapdb.sql`) to create the database an
 
 ## 📁 Project Structure
 CivicMap/
+
 ├── src/
 │ └── com.r3sys/
 │ ├── controller/
